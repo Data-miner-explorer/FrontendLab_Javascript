@@ -1,6 +1,3 @@
-// ES2015 - new syntax for classes
-// class Person {
-// }
 
 /**
  * Step 1: Create Question class - text (string), choices (an array of strings), answer (string)
@@ -29,7 +26,6 @@
    *    1. If correct, it increases the score - use the current question's isCorrectAnswer() method to check this
    *    2. In any case, it increments the questionIndex
    * 
-   * NOTE: You can test out if you are able to create a Quiz object, and call the method on it
    */
   function Quiz( questions ) {
     // number of correct answers - initially 0
